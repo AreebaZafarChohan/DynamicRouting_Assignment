@@ -1,6 +1,4 @@
 import NavbarLi from '@/app/components/NavbarLi';
-import Link from 'next/link';
-import React from 'react'
 
 const Country = () => {
   return (
