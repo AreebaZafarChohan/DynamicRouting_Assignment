@@ -39,12 +39,14 @@ const CountryName = ({ params }: { params: { country_name: string } }) => {
       <h1 className="text-white text-center text-2xl"> Country Not Found! </h1>
     );
   }
+
+  
   return (
     <div className="text-center m-10 bg-gray-500 rounded-lg">
       <div className="text-white text-center text-xl p-4">
         <h1 className="m-4"> Name: {country.name}</h1>
         <h1 className="m-4"> Population: {country.population}</h1>
-        <h1 className="m-4"> Capitl: {country.capital}</h1>
+        <h1 className="m-4"> Capital: {country.capital}</h1>
         <Link href="/country" className="m-2 p-3 bg-pink-600 rounded-md text-base">Back to Country List</Link>
       </div>
     </div>
